@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="600" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.Controller">
+    <top>
+        <MenuBar>
+            <Menu text = "Student">
+                <MenuItem text = "Add Student" onAction="#AddStudent">
+
+
+                </MenuItem>
+                <MenuItem text = "View Student" onAction ="#ViewStudent">
+
+                </MenuItem>
+                <MenuItem text = "Edit Student" onAction="#EditStudent">
+
+                </MenuItem>
+            </Menu>
+
+            <Menu text = "Course">
+                <MenuItem text = "Add Course" onAction="#AddCourse">
+
+
+                </MenuItem>
+                <MenuItem text = "View Course" onAction="#ViewCourse">
+
+                </MenuItem>
+                <MenuItem text = "Edit Course" onAction="#EditCourse">
+
+                </MenuItem>
+
+            </Menu>
+
+            <Menu text = "Course Enrollment">
+                <MenuItem text = "Add Course Enrollment" onAction="#AddCourseEnrollment">
+
+                </MenuItem>
+                <MenuItem text = "View Course Enrollment" onAction="#ViewCourseEnrollment">
+
+                </MenuItem>
+                <MenuItem text = "Edit Course Enrollment" onAction="#EditCourseEnrollment">
+
+                </MenuItem>
+
+            </Menu>
+
+            <Menu text = "Grades">
+                <MenuItem text = "Add Grades" onAction="#AddGrades">
+
+                </MenuItem>
+                <MenuItem text = "View Grades" onAction="#ViewGrades">
+
+                </MenuItem>
+                <MenuItem text = "Edit Grades" onAction="#EditGrades">
+
+                </MenuItem>
+
+            </Menu>
+            <Menu text = "Reports">
+                <MenuItem text = "Student Reports" onAction="#StudentReports">
+
+                </MenuItem>
+
+
+            </Menu>
+
+
+
+        </MenuBar>
+
+    </top>
+
+    <center>
+        <Label text = "Welcome to the University Enrollment Application!"/>
+
+    </center>
+
+</BorderPane>
